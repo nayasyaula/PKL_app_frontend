@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "MobileAbsen",
+    "slug": "MobileAbsen",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo1.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo1.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "useNextNotificationsApi": true,
+      "package": "com.nayasyaula.MobileAbsen"
+    },
+    "web": {
+      "favicon": "./assets/logo1.png"
+    },
+    "entryPoint": "./App.js",
+    "extra": {
+      "eas": {
+        "projectId": "c2470097-89b6-4610-b8bc-b24e8ddbf3b3"
+      }
+    }
+  }
+}
